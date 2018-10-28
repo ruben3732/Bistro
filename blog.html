@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
+		<link rel="stylesheet" href="blog.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        		<link rel="stylesheet" href="food.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+	<header>
+		<div class="head1"> 
+			<div class="logo">
+				<img src="C:\Users\DELL\Desktop\1.png" alt="" style="height:70px;width:170px;"><h1 style="color:coral;float: left;"><i>De'classe Banco</i></h1>
+			</div>
+			<ul class="navigation"> 
+				<li><a href="food.html">Home</a></li>
+                <li><a href="table.html">Table Booking</a></li>
+                <li><a href="#blog.html">Blog</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+               
+				
+			</ul>
+		</div>
+	</header>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="42.jpg" style="width:70%;height:90% ">
+</div>
+
+<div class="mySlides fade">
+  <img src="43.png" style="width:70%; height: 90%">
+</div>
+
+<div class="mySlides fade">
+  <img src="46.png" style="width:70%; height: 50% ">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2500); 
+}
+</script>
+<br><br><p>
+<div id="blog1"><span><img src="44.png" style="float: left;width: 730px;height: 350px;"><h1 style="color:red">The Bruncheon By De'classe Banco</h1><br><h3>The Bruncheon By De'classe Banco.<br><br>Get ready for the most exciting Sundays ever!<br>De'classe Banco brings you the Bruncheon on every Sundays.<br><br>Delicious brunch dishes from various cuisines,drinks to make your morning refreshing,exciting cooking stalls to engage in.Playstation stalls for your kids to have their gala time and more...<br><br>
+Book Now and Give Your Sunday a New Plan<br><a href="table.html" style="color: orange">Click to book your Table</a></h3></span>
+</div></p><p>
+<div id="blog1"><span><img src="50.jpg" style="float: left; width: 600px;height: 230px; margin-left: 75px;margin-top: 7px;margin-bottom: 10px;"><h1 style="color:red">Bigger The Game Bigger The Perks</h1><br><h3>
+    01 Nov,2018<br>Like to Dine with your friends/family group? If yes here is a chance to avail offer at your favourite restaurant.<br><br>#BehindTheGrill<br><a href="table.html" style="color: orange">Click to book your Table</a></h3></span>
+</div></p><p>
+<div id="blog1"><span><img src="51.png" style="float: left;width: 580px;height: 220px;"><h1 style="color:red;margin-left: 55%">De'classe Banco Home Delivery</h1><br><h3 style="margin-left: 55%""><br>You Can't come to us? We'll come to you sometimes.<br>Without missing a moment of the live cricket action, enjoy the taste of France.  
+Book Now.<br>Call Us On:<br><b>+15968452<b></b></h3></span>
+</div><br>
+</p>
+<footer> 
+    <p>&copy; Copyright</p>
+</footer>
+</body></html>

@@ -1,0 +1,22 @@
+body{
+	background-image: url(31.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	text-align: center;
+	background-position: fixed;
+}
+ 
+    footer{
+        width:100%;
+        height:60px;
+        color:black;
+        background:grey;
+        text-align:center;
+        padding-top:5px;
+        font-size:18px;
+        font-family: "Tangerine", serif;
+    }
+
+    
+    
